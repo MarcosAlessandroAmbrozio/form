@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Prova CSS</title>
+    </head>
+    <body>
+
+        <header class="intro">
+            <img src="img/boa.png" >
+            <h1>Cadastre-se</h1>                
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Clientes</a></li>
+                <li><a href="default.html">Produtos</a></li>
+            </ul>
+        </nav>
+
+        <form class="context">
+
+                <div>
+                    <h2>Dados Pessoais :</h2>
+                </div>
+    
+                <div>                        
+                    <input type="text" class="form-control" placeholder="Nome completo">
+                </div>               
+    
+                <div>
+                    <input type="text" class="form-control" placeholder="CNPJ/CPF">
+                </div>    
+    
+                <div>     
+                    <label for="text">Data de nascimento:</label>  <br>         
+                    <input type="date" class="form-control">
+                </div>
+    
+                <div>              
+                    <input type="text" class="form-control" placeholder="Naturalidade">
+                </div>
+                  
+                <div class="radio">
+                    <h4>Selecione o sexo: </h4>
+                    <input type="radio" class="form-check-input" /> <label class="form-check-label col-md-2"> Feminino</label>
+                    <input type="radio" class="form-check-input" /> <label class="form-check-label col-md-2"> Masculino</label>
+                    <input type="radio" class="form-check-input" /> <label class="form-check-label col-md-2"> Nao Informar</label>
+    
+                </div>
+
+                <div>            
+                    <input type="text" class="form-control" placeholder="Nome fantasia da empresa">
+                </div>
+
+                <div>            
+                    <input type="text" class="form-control" placeholder="Atividade econômica">
+                </div>
+
+                <div>            
+                    <input type="text" class="form-control" placeholder="Dependentes/Funcionários">
+                </div>
+                
+    
+                <div>
+                    <h2>Dados do endereço: </h2>
+                </div>
+    
+                <div>               
+                    <input type="text" class="form-control" placeholder="Rua">
+                </div>
+                    
+                <div>
+                    <input type="number" class="form-control" placeholder="Número">
+                </div>
+               
+                <div>
+                    <h4>Selecione o complemento : </h4>
+                    <select name="est" id="uf">
+                        <option value="AC">D</option>
+                        <option value="AL">E</option>
+    
+                    </select>
+                </div>
+                
+                <div>
+    
+                    <h4>Selecione o estado : </h4>
+                    <select name="est" id="uf">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Su</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará </option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="RR">Roraima</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        
+                    </select>
+    
+                </div>
+                <div>
+                    <h2>Dados de Contato :</h2>
+                </div>
+                
+                <div>
+                    <input type="number" class="form-control" placeholder="Celular">
+                </div>
+
+                <div>
+                    <input type="email" class="form-control" placeholder="E-mail">
+                </div>
+                
+                <div>
+                    <input type="number" class="form-control" placeholder="Telefone">
+                </div>
+                
+                <br>
+                <div>
+                    <button type="submit" class="cad">Cadastrar</button>
+                    <button type="reset" class="lim">Limpar</button>
+                </div>
+
+        </form>
+           
+        <footer>
+            <div>
+                <h3><i class="fa-regular fa-copyright">Copyright todos os direitos reservados a Marcos Alessandro Ambrozio</i></h3>
+                <h3><i class="fa-regular fa-registered"> Criado e Desenvolvido por Marcos Alessandro Ambrozio</i></h3>
+                
+            </div>
+        </footer>
+        <br><br>
+        
+    </body>
+</html>
